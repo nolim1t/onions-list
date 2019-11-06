@@ -12,6 +12,14 @@ This file is my curated list (based on [meeDamian's list](https://github.com/mee
 * running in background, and
 * listening on `127.0.0.1:9050` or `127.0.0.1:9151` depending on your OS
 
+My sites
+--------------
+
+Here are my own ``.onion`` sites
+
+* [My Blog](http://nlboxajljr5boevw3vyfryenhwqs5eehfh5pnbzjlnounrje5wulbnyd.onion/)
+* [My company](http://uflabsykocgfkhkxo6fq4fzike4cxpq2dhcqsj3kosgprpkc6hva2iid.onion)
+
 
 Popular and on Tor
 --------------
@@ -172,6 +180,4 @@ Other
 
 Here are other ```.onions``` you can use which don't fall into any of the above categories
 
-* [nolim1t.co onion](http://nlboxajljr5boevw3vyfryenhwqs5eehfh5pnbzjlnounrje5wulbnyd.onion/)
-* [UFTech Labs onion](http://uflabsykocgfkhkxo6fq4fzike4cxpq2dhcqsj3kosgprpkc6hva2iid.onion)
 * [Unassigned (possibly for LNCM purposes)](http://lncm5ceegpyrc2ts.onion/)
