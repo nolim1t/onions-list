@@ -6,20 +6,11 @@ permalink: /onions/
 Hyper-onion-ization
 ====================
 
-This file is my curated list of all things Tor.  It all assumes:
+This file is my curated list (based on [meeDamian's list](https://github.com/meeDamian/onions)) of all things Tor.  It all assumes:
 
-* [Tor is installed](#Install-Tor)
+* Tor is installed
 * running in background, and
-* listening on `127.0.0.1:9050`.
-
-## Index
-
-* [Popular and on Tor](#Popular-and-on-Tor)
-* [Bitcoin Git Repos](#Bitcoin-Git-Repos)
-* [GnuGPG](#GnuGPG)
-* [Keybase](#Keybase)
-* [Honorable Mentions](#Honorable-Mentions)
-* [LNCM](#LNCM)
+* listening on `127.0.0.1:9050` or `127.0.0.1:9151` depending on your OS
 
 
 Popular and on Tor
@@ -123,10 +114,8 @@ Honorable Mentions
 
 These services are known for using Tor either extensively, or exclusively:
 
-<!-- TODO: add more -->
-<!-- TODO: add links -->
 * JoinMarket
-* Samourai Wallet
+* Samourai Wallet & Sentinel
 * Wasabi Wallet
 
 LNCM
