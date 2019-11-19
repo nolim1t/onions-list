@@ -29,6 +29,7 @@ Table below contains a list of `.onion` addresses for some more popular clearnet
 
 | clearnet/name    | onion address
 |------------------|:--------------
+| BBC News         | https://www.bbcnewsv2vjtpsuy.onion
 | Blockstream.info | http://explorerzydxu5ecjrkwceayqybizmpjjznk5izmitf2modhcusuqlid.onion
 | DuckDuckGo.com   | https://3g2upl4pq6kufc4m.onion
 | Facebook.com     | https://www.facebookcorewwwi.onion
@@ -130,6 +131,15 @@ These services are known for using Tor either extensively, or exclusively:
 LNCM
 ----
 A Chiang Mai-based Lightning Network oriented developer community.  Here's some of our onions:
+
+#### Websites
+
+Websites related to LNCM
+
+| clearnet/name    | onion address
+|------------------|:--------------
+| LNCM.io ([@nolim1t TorV2 Mirror](https://github.com/nolim1t))         | http://lncm5rjtcacoc6yf.onion/
+
 
 #### ⛓ Bitcoin nodes
 
