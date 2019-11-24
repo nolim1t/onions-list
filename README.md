@@ -142,7 +142,7 @@ Websites related to LNCM
 
 | type    | addresses
 |---------|:----------
-| mainnet | `lncmdma3namzrbnx.onion:8333` <br> `lncmdmx7ezlplcck.onion:8333` <br> `lncmdmgoddecttey.onion:8444`   
+| mainnet | `lncmdma3namzrbnx.onion:8333` <br> `lncmdmx7ezlplcck.onion:8333` <br> `lncmdmgoddecttey.onion:8444`  <br> `lncmpcxic4djf5e4.onion:8333` (nolim1t)  <br> `xfyobg6sskqtwitx.onion:8333` (nolim1t) 
 | testnet | `lncmdmfl674xg3oa.onion:18333`<br> `lncmdmrpdhoeraa5.onion:18333`
 | regtest | N/A at the moment
 
