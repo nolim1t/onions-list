@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="/template/assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="https://nolim1t.gitlab.io/nolim1t-co/template/assets/css/main.css" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.2.1/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.2.1/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.16/browser.js"></script>
+		<script src="https://nolim1t.gitlab.io/nolim1t-co/js/bower_components/moment/moment.js"></script>
+		<script src="https://nolim1t.gitlab.io/nolim1t-co/js/bower_components/jquery/dist/jquery.min.js"></script>
+		<!--[if lte IE 9]><link rel="stylesheet" href="/template/assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="/template/assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="/">@nolim1t</a></h1>
+						<nav class="links">
+							<ul>
+								<li><a href="http://nolim1t.co/opensource/">My Code</a></li>
+								<li><a href="http://nolim1t.co/projects/">My Projects</a></li>
+								<li><a href="http://itinerantfoodie.com/">My Travels / Food</a></li>
+								<li><a href="https://twitter.com/nolim1t">My Ramblings</a></li>
+							</ul>
+						</nav>
+					</header>
+
+					<section id="main">
+						<!-- Intro -->
+							<section id="intro">
+								<header>
+									<a href="//d3hs7z89jfjpsh.cloudfront.net/profile/nolim1t_snapcode.png" class="logo"><img src="//d3hs7z89jfjpsh.cloudfront.net/profile/nolim1t_snapcode.png" alt="" /></a>
+									<h2>@nolim1t</h2>
+									<p>Thoughts become things</p>
+									<div id="lastseen"></div>
+									<div id="helloreact"></div>
+								</header>
+							</section>
+
+						<!-- Posts List -->
+							<h1 id="hyper-onion-ization">Hyper-onion-ization</h1>
+
+<p>This file is my curated list of all things Tor.  It all assumes:</p>
+
+<ul>
+  <li><a href="#Install-Tor">Tor is installed</a></li>
+  <li>running in background, and</li>
+  <li>listening on <code class="highlighter-rouge">127.0.0.1:9050</code>.</li>
+</ul>
+
+<h2 id="index">Index</h2>
+
+<ul>
+  <li><a href="#Popular-and-on-Tor">Popular and on Tor</a></li>
+  <li><a href="#Bitcoin-Git-Repos">Bitcoin Git Repos</a></li>
+  <li><a href="#GnuGPG">GnuGPG</a></li>
+  <li><a href="#Keybase">Keybase</a></li>
+  <li><a href="#Honorable-Mentions">Honorable Mentions</a></li>
+  <li><a href="#LNCM">LNCM</a></li>
+</ul>
+
+<h2 id="popular-and-on-tor">Popular and on Tor</h2>
+
+<p>Table below contains a list of <code class="highlighter-rouge">.onion</code> addresses for some more popular clearnet services.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>clearnet/name</th>
+      <th style="text-align: left">onion address</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>BBC News</td>
+      <td style="text-align: left">https://www.bbcnewsv2vjtpsuy.onion</td>
+    </tr>
+    <tr>
+      <td>Blockstream.info</td>
+      <td style="text-align: left">http://explorerzydxu5ecjrkwceayqybizmpjjznk5izmitf2modhcusuqlid.onion</td>
+    </tr>
+    <tr>
+      <td>DuckDuckGo.com</td>
+      <td style="text-align: left">https://3g2upl4pq6kufc4m.onion</td>
+    </tr>
+    <tr>
+      <td>Facebook.com</td>
+      <td style="text-align: left">https://www.facebookcorewwwi.onion</td>
+    </tr>
+    <tr>
+      <td>Keybase.io</td>
+      <td style="text-align: left">http://keybase5wmilwokqirssclfnsqrjdsi7jdir5wy7y7iu3tanwmtp6oid.onion</td>
+    </tr>
+    <tr>
+      <td>NYTimes.com</td>
+      <td style="text-align: left">https://www.nytimes3xbfgragh.onion</td>
+    </tr>
+    <tr>
+      <td>ProtonMail.com</td>
+      <td style="text-align: left">https://protonirockerxow.onion</td>
+    </tr>
+    <tr>
+      <td>ThePirateBay.org</td>
+      <td style="text-align: left">http://uj3wazyk5u4hnvtk.onion</td>
+    </tr>
+    <tr>
+      <td>WasabiWallet.io</td>
+      <td style="text-align: left">http://wasabiukrxmkdgve5kynjztuovbg43uxcbcxn6y2okcrsg7gb6jdmbad.onion</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="bitcoin-git-repos">Bitcoin Git Repos</h2>
+
+<p>Thanks to <a href="https://github.com/laanwj">@laanwj</a>, Bitcoin and some orbiting repos (<code class="highlighter-rouge">lnd</code>, <code class="highlighter-rouge">c-lightning</code>, <code class="highlighter-rouge">eclair</code>, Bitcoin meta stuff) are mirrored as a Tor hidden service at:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>http://nxshomzlgqmwfwhcnyvbznyrybh3gotlfgis7wkv7iur2yj2rarlhiad.onion
+</code></pre>
+</div>
+
+<p>While all necessary instructions are on <a href="http://nxshomzlgqmwfwhcnyvbznyrybh3gotlfgis7wkv7iur2yj2rarlhiad.onion">the website above</a>, here’s the <strong>tl;dr:</strong></p>
+
+<h4 id="fresh-clone-of-bitcoin">Fresh clone of Bitcoin</h4>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>git -c http.proxy<span class="o">=</span>socks5h://127.0.0.1:9050 clone http://nxshomzlgqmwfwhcnyvbznyrybh3gotlfgis7wkv7iur2yj2rarlhiad.onion/git/bitcoin.git
+<span class="nb">cd </span>bitcoin
+git config --add remote.origin.proxy <span class="s2">"socks5h://127.0.0.1:9050"</span>
+</code></pre>
+</div>
+
+<h4 id="change-origin-of-lnd-to-tor">Change <code class="highlighter-rouge">origin</code> of lnd to Tor</h4>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code><span class="nb">cd </span>lnd
+git remote <span class="nb">set</span>-url master http://nxshomzlgqmwfwhcnyvbznyrybh3gotlfgis7wkv7iur2yj2rarlhiad.onion/git/lnd.git
+git config --add remote.master.proxy <span class="s2">"socks5h://127.0.0.1:9050"</span>
+git remote add github git@github.com:lightningnetwork/lnd.git
+</code></pre>
+</div>
+
+<h2 id="gnugpg">GnuGPG</h2>
+
+<p>To use <code class="highlighter-rouge">hkps://keys.openpgp.org</code> through a hidden service, to <code class="highlighter-rouge">~/.gnupg/gpg.cong</code> file add the following line:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>keyserver hkp://zkaan2xfbuxia2wpf7ofnkbz6r5zdbbvxbunvp5g2iebopbfc4iqmbad.onion
+</code></pre>
+</div>
+
+<p>If you already have a <code class="highlighter-rouge">keyserver …</code> line there, replace it.</p>
+
+<p><a href="https://keys.openpgp.org/about/usage">Onion source</a>. Should work on MacOS &amp; Linux alike.</p>
+
+<h2 id="keybase">Keybase</h2>
+
+<p>Keybase talks about their usage of Tor in more detail on <a href="https://keybase.io/docs/command_line/tor">this page</a>, but here’s a <strong>tl;dr:</strong></p>
+
+<h4 id="cli">CLI</h4>
+
+<p>Tor hidden address is used by the CLI internally by default.</p>
+
+<p>Enabling CLI’s communication with <strong>non-keybase</strong> services via Tor can be done with either:</p>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>keybase config <span class="nb">set </span>tor.mode leaky
+keybase config <span class="nb">set </span>tor.mode strict
+</code></pre>
+</div>
+
+<blockquote>
+  <p><strong>Note:</strong> both modes are fairly broken as of 2019-08-23 &amp; <code class="highlighter-rouge">v4.3.2</code></p>
+</blockquote>
+
+<h4 id="web">Web</h4>
+
+<p>You can visit Keybase through their hidden service at:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>http://keybase5wmilwokqirssclfnsqrjdsi7jdir5wy7y7iu3tanwmtp6oid.onion
+</code></pre>
+</div>
+
+<h4 id="desktop">Desktop</h4>
+
+<p>You can proxy all desktop client traffic through Tor by setting PROXY to <code class="highlighter-rouge">SOCKS5</code>,
+<code class="highlighter-rouge">127.0.0.1</code>, and <code class="highlighter-rouge">9050</code> in <code class="highlighter-rouge">Keybase -&gt; Settings -&gt; Advanced</code>.</p>
+
+<h2 id="honorable-mentions">Honorable Mentions</h2>
+
+<p>These services are known for using Tor either extensively, or exclusively:</p>
+
+<!-- TODO: add more -->
+<!-- TODO: add links -->
+<ul>
+  <li>JoinMarket</li>
+  <li>Samourai Wallet</li>
+  <li>Wasabi Wallet</li>
+</ul>
+
+<h2 id="lncm">LNCM</h2>
+<p>A Chiang Mai-based Lightning Network oriented developer community.  Here’s some of our onions:</p>
+
+<h4 id="websites">Websites</h4>
+
+<p>Websites related to LNCM</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>clearnet/name</th>
+      <th style="text-align: left">onion address</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>LNCM.io (<a href="https://github.com/nolim1t">@nolim1t TorV2 Mirror</a>)</td>
+      <td style="text-align: left">http://lncm5rjtcacoc6yf.onion/</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="-bitcoin-nodes">⛓ Bitcoin nodes</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>type</th>
+      <th style="text-align: left">addresses</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>mainnet</td>
+      <td style="text-align: left"><code class="highlighter-rouge">lncmdma3namzrbnx.onion:8333</code> <br /> <code class="highlighter-rouge">lncmdmx7ezlplcck.onion:8333</code> <br /> <code class="highlighter-rouge">lncmdmgoddecttey.onion:8444</code>  <br /> <code class="highlighter-rouge">lncmpcxic4djf5e4.onion:8333</code> (nolim1t)  <br /> <code class="highlighter-rouge">xfyobg6sskqtwitx.onion:8333</code> (nolim1t)</td>
+    </tr>
+    <tr>
+      <td>testnet</td>
+      <td style="text-align: left"><code class="highlighter-rouge">lncmdmfl674xg3oa.onion:18333</code><br /> <code class="highlighter-rouge">lncmdmrpdhoeraa5.onion:18333</code></td>
+    </tr>
+    <tr>
+      <td>regtest</td>
+      <td style="text-align: left">N/A at the moment</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="️-lightning-nodes">⚡️ Lightning nodes</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>type</th>
+      <th style="text-align: left">connection string</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>mainnet</td>
+      <td style="text-align: left"><code class="highlighter-rouge">032260c3b64b471b7eb0630b4af5d07ca94ff4e759573cbbe1bfb25845c375ed6e@o3s5j4j37nbyzgvbngn3ahpmttvviyensw34klhqzw7in7vfzz646lqd.onion:9735</code></td>
+    </tr>
+    <tr>
+      <td>testnet</td>
+      <td style="text-align: left"><code class="highlighter-rouge">02e888295220a5254a5f0486538dc77c0357ee9727db2e9173e6a76646d4aa332e@hxz6xeqvmi5s6rbqqtgu4qkihgdkwbnc7h2vnsn3qkahhffau6afbsyd.onion:9733</code></td>
+    </tr>
+    <tr>
+      <td>regtest</td>
+      <td style="text-align: left">N/A at the moment</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="️-altruistic-watchtowers">⚡️ Altruistic Watchtowers</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>type</th>
+      <th style="text-align: left">connection string</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>mainnet</td>
+      <td style="text-align: left"><code class="highlighter-rouge">02c690cdb81fec5caa9f0b1c925a13ee5412c0232668bd8c5787165532d577f689@lncmnlgypuendl5t.onion:991</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="install-tor">Install Tor</h2>
+<p>The easiest ways to install Tor I’ve found so far.</p>
+
+<h3 id="macos">MacOS</h3>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>brew update <span class="o">&amp;&amp;</span> brew install tor <span class="o">&amp;&amp;</span> brew service start tor <span class="o">&amp;&amp;</span> tor --version
+</code></pre>
+</div>
+
+<blockquote>
+  <p><strong>Note:</strong> <code class="highlighter-rouge">torrc</code> is located in <code class="highlighter-rouge">/usr/local/etc/tor/torrc</code> by default.</p>
+</blockquote>
+
+<h3 id="debianubuntu">Debian/Ubuntu</h3>
+
+<p>That includes Raspbian on the more capable RBPs (not zero).</p>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>sudo apt update <span class="o">&amp;&amp;</span> sudo apt install tor <span class="o">&amp;&amp;</span> sudo service tor@default restart <span class="o">&amp;&amp;</span> tor --version
+</code></pre>
+</div>
+
+<blockquote>
+  <p><strong>Note:</strong> <code class="highlighter-rouge">torrc</code> is located in <code class="highlighter-rouge">/etc/tor/torrc</code> by default.</p>
+</blockquote>
+
+<h2 id="other">Other</h2>
+
+<p>Here are other <code class="highlighter-rouge">.onions</code> you can use which don’t fall into any of the above categories</p>
+
+<ul>
+  <li><a href="http://nlboxajljr5boevw3vyfryenhwqs5eehfh5pnbzjlnounrje5wulbnyd.onion/">nolim1t.co onion</a></li>
+  <li><a href="http://uflabsykocgfkhkxo6fq4fzike4cxpq2dhcqsj3kosgprpkc6hva2iid.onion">UFTech Labs onion</a></li>
+  <li><a href="http://lncm5ceegpyrc2ts.onion/">Unassigned (possibly for LNCM purposes)</a></li>
+</ul>
+
+
+						<!-- About -->
+							<section class="blurb">
+								<br />
+                                <h2>Who am I?</h2>
+								<p>I write <a href="http://nolim1t.co/opensource"><strong>codes</strong></a>, I am passionate about usability / user interaction, I trade cryptocurrencies, I <a href="https://itinerantfoodie.com/"><strong>travel</strong></a> (alot), and I blog (ocassionally, but try to be regular)</p>
+							</section>
+
+						<!-- Footer -->
+							<section id="footer">
+								<ul class="icons">
+									<li><a href="https://github.com/nolim1t" class="fa-github"><span class="label">Github</span></a></li>
+									<li><a href="https://twitter.com/nolim1t" class="fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="https://instagram.com/nolim1t" class="fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="https://foursquare.com/nolim1t" class="fa-foursquare"><span class="label">foursquare</span></a></li>
+									<li><a href="http://feeds.feedburner.com/nolim1tdotco" class="fa-rss"><span class="label"RSS Feed</span></a></li>
+								</ul>
+								<p class="copyright">&copy; Content: nolim1t.co. Design Inspired by <a href="http://html5up.net">HTML5 UP</a>. Images: <a href="http://unsplash.com">Unsplash</a>. Made with ❤︎ in Chiang Mai</p>
+							</section>
+					</section>
+			</div>
+
+		<!-- Scripts -->
+			<script src="https://nolim1t.gitlab.io/nolim1t-co/template/assets/js/skel.min.js"></script>
+			<script src="https://nolim1t.gitlab.io/nolim1t-co/template/assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="/template/assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="https://nolim1t.gitlab.io/nolim1t-co/template/assets/js/main.js"></script>
+			<!-- React Stuff -->
+			<script type="text/babel" src="http://nolim1t.co/js/app.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-77060790-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+	</body>
+</html>
