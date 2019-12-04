@@ -1,0 +1,37 @@
+{
+  "name": "Browser",
+  "version": "0.1.2",
+  "description": "Springload's in-house feature detection API",
+  "main": "browser.js",
+  "keywords": [
+    "Browser",
+    "Feature",
+    "detection",
+    "Progressive",
+    "enhancement",
+    "test"
+  ],
+  "authors": [
+    "Josh Barr",
+    "Springload"
+  ],
+  "license": "MIT",
+  "homepage": "http://springload.co.nz",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "0.1.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.1.2",
+    "commit": "677fd2cb14ab1df83a2ee41b244fb8b5b6e2f94d"
+  },
+  "_source": "https://github.com/JoshBarr/Browser.js.git",
+  "_target": "~0.1.2",
+  "_originalSource": "browser.js",
+  "_direct": true
+}

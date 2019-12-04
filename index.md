@@ -1,3 +1,8 @@
+---
+layout: default
+permalink: /
+---
+
 Hyper-onion-ization
 ====================
 
