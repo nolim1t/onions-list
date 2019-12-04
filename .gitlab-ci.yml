@@ -1,0 +1,35 @@
+image: ruby:2.3
+
+variables:
+    JEKYLL_ENV: production
+    GIT_SUBMODULE_STRATEGY: recursive
+
+before_script:
+    - apt-get -qq update && apt-get -qq install -y tor netcat-openbsd openssh-server openssh-client
+    - /etc/init.d/tor start
+    - mkdir -p ~/.ssh && touch ~/.ssh/config
+    - echo "$PRIVATE_KEY" > ~/.ssh/deploy_key
+    - touch ~/.ssh/known_hosts
+    - chmod 600 ~/.ssh/known_hosts
+    - chmod 600 ~/.ssh/deploy_key
+    - echo "Unset DISPLAY and SSH_ASKPASS variable" && unset DISPLAY && unset SSH_ASKPASS
+    - echo "StrictHostKeyChecking=no" >> ~/.ssh/config
+    - echo "Host *.onion" >> ~/.ssh/config
+    - echo "    ProxyCommand /usr/bin/nc -x localhost:9050 %h %p" >> ~/.ssh/config
+    - eval $(ssh-agent)
+    - echo "Add deploy key to keychain" && ssh-add ~/.ssh/deploy_key
+    - echo "Wait 10 seconds to bootstrap" && sleep 10
+    - bundle install
+    - git submodule sync --recursive
+    - git submodule foreach git pull origin master
+
+pages:
+    stage: deploy
+    script:
+    - bundle exec jekyll build -d public
+    - echo "Making test deploy" && cd public/ && scp -o "ProxyCommand nc -x localhost:9050 %h %p" -o "StrictHostKeyChecking=no" -o "UserKnownHostsFile=/dev/null" -r * lncm@nlcnxuehxfppi5y4.onion:/www-onions/_site
+    artifacts:
+        paths:
+        - public
+    only:
+    - master
