@@ -13,9 +13,9 @@
     <header>
       <div class="container">
         <a id="a-title" href="{{ '/' | relative_url }}">
-          <h1>Hyper-onionization</h1>
+          <h1>{{ site.title | default: "Hyper-onion-ization" }}</h1>
         </a>
-        <h2>Hyper-onionization</h2>
+        <h2>{{ site.description | default: "Hyper-onion-ization" }}</h2>
 
       </div>
     </header>

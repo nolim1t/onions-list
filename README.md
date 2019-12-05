@@ -9,12 +9,24 @@ This file is my curated list of all things Tor.  It all assumes:
 
 ## Index
 
+* [Mine](#My-Sites)
 * [Popular and on Tor](#Popular-and-on-Tor)
 * [Bitcoin Git Repos](#Bitcoin-Git-Repos)
 * [GnuGPG](#GnuGPG)
 * [Keybase](#Keybase)
 * [Honorable Mentions](#Honorable-Mentions)
 * [LNCM](#LNCM)
+
+My Sites
+--------------
+
+Here are my own ``.onion`` sites
+
+| clearnet/name    | onion address
+|------------------|:--------------
+| My Onions mirror | http://nlboxzx55nq7gqtzmqdkik5d6lbnxzg4tdilrersg6zoq2m3gexj2nad.onion/
+| My Blog          | http://nlboxajljr5boevw3vyfryenhwqs5eehfh5pnbzjlnounrje5wulbnyd.onion/
+| My company       | http://uflabsykocgfkhkxo6fq4fzike4cxpq2dhcqsj3kosgprpkc6hva2iid.onion/
 
 
 Popular and on Tor
@@ -188,6 +200,4 @@ Other
 
 Here are other ```.onions``` you can use which don't fall into any of the above categories
 
-* [nolim1t.co onion](http://nlboxajljr5boevw3vyfryenhwqs5eehfh5pnbzjlnounrje5wulbnyd.onion/)
-* [UFTech Labs onion](http://uflabsykocgfkhkxo6fq4fzike4cxpq2dhcqsj3kosgprpkc6hva2iid.onion)
 * [Unassigned (possibly for LNCM purposes)](http://lncm5ceegpyrc2ts.onion/)
