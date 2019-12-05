@@ -18,6 +18,7 @@ My sites
 
 Here are my own ``.onion`` sites
 
+* [My onions mirror](http://nlboxzx55nq7gqtzmqdkik5d6lbnxzg4tdilrersg6zoq2m3gexj2nad.onion/)
 * [My Blog](http://nlboxajljr5boevw3vyfryenhwqs5eehfh5pnbzjlnounrje5wulbnyd.onion/)
 * [My company](http://uflabsykocgfkhkxo6fq4fzike4cxpq2dhcqsj3kosgprpkc6hva2iid.onion)
 
