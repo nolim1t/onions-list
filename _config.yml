@@ -1,6 +1,7 @@
 theme: jekyll-theme-hacker
 title: "Hyper-onion-ization"
-description: "<a href=\"https://gitlab.com/nolim1t/\">@nolim1t</a>'s collection of .onion sites and resources without borders"
+
+description: "<a href=\"https://gitlab.com/nolim1t/\">@nolim1t</a>'s collection of .onion sites and resources without borders (🕊👫👭👬🧕👳☮️)"
 
 exclude: ["README.md", "LICENSE", ".git", "Gemfile", "Rakefile", "Gemfile.lock"]
 gems:

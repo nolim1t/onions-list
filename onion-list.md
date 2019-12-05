@@ -3,9 +3,9 @@ layout: default
 permalink: /onions/
 ---
 
-
 Hyper-onion-ization
-====================
+--------------
+
 
 This file is my curated list (based on [meeDamian's list](https://github.com/meeDamian/onions)) of all things Tor.  It all assumes:
 
@@ -22,7 +22,7 @@ Here are my own ``.onion`` sites
 |------------------|:--------------
 | My Onions mirror | http://nlboxzx55nq7gqtzmqdkik5d6lbnxzg4tdilrersg6zoq2m3gexj2nad.onion/
 | My Blog          | http://nlboxajljr5boevw3vyfryenhwqs5eehfh5pnbzjlnounrje5wulbnyd.onion/
-| My company       | http://uflabsykocgfkhkxo6fq4fzike4cxpq2dhcqsj3kosgprpkc6hva2iid.onion/
+| UFLabs Site      | http://uflabsykocgfkhkxo6fq4fzike4cxpq2dhcqsj3kosgprpkc6hva2iid.onion/
 
 
 Popular and on Tor
