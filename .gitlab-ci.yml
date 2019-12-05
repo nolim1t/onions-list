@@ -21,14 +21,13 @@ before_script:
     - echo "Wait 10 seconds to bootstrap" && sleep 10
     - git submodule sync --recursive
     - git submodule foreach git pull origin master
-    - echo "Build to _site" && rake deploy
 
 pages:
     stage: deploy
     script:
     - bundle exec jekyll build -d public
     - echo "Copy _site/onions/index.html to root" && cd _site/ && cp onions/index.html .
-    - echo "Making test deploy" && cd _site/ && scp -o "ProxyCommand nc -x localhost:9050 %h %p" -o "StrictHostKeyChecking=no" -o "UserKnownHostsFile=/dev/null" -r * lncm@nlcnxuehxfppi5y4.onion:/www-onions/_site
+    - echo "Making test deploy" && cd public/ && scp -o "ProxyCommand nc -x localhost:9050 %h %p" -o "StrictHostKeyChecking=no" -o "UserKnownHostsFile=/dev/null" -r * lncm@nlcnxuehxfppi5y4.onion:/www-onions/_site
     artifacts:
         paths:
         - public
