@@ -21,6 +21,7 @@ before_script:
     - echo "Wait 10 seconds to bootstrap" && sleep 10
     - git submodule sync --recursive
     - git submodule foreach git pull origin master
+    - echo "Build to _site" && rake deploy
 
 pages:
     stage: deploy
