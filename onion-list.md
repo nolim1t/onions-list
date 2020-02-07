@@ -190,6 +190,14 @@ sudo apt update && sudo apt install tor && sudo service tor@default restart && t
 > **Note:** `torrc` is located in `/etc/tor/torrc` by default.
 
 
+Interesting Topics
+--------------
+
+| clearnet/name    | onion address
+|------------------|:------------------
+| Psychonaut Wiki  | [vvedndyt433kopnhv6vejxnut54y5752vpxshjaqmj7ftwiu6quiv2ad.onion](http://vvedndyt433kopnhv6vejxnut54y5752vpxshjaqmj7ftwiu6quiv2ad.onion/)
+
+
 Other
 -------
 
