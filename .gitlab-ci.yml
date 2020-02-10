@@ -27,8 +27,7 @@ pages:
     stage: deploy
     script:
     - bundle exec jekyll build -d public
-    - echo "Making deploy to onion mirror" && cd _site/ && scp -o "ProxyCommand nc -x localhost:9050 %h %p" -o "StrictHostKeyChecking=no" -o "UserKnownHostsFile=/dev/null" -r * deploy@2ma67qeyulhuw4xl.onion:/www-onions
-    - echo "Making deploy to nlboxzx55nq7gqtzmqdkik5d6lbnxzg4tdilrersg6zoq2m3gexj2nad.onion" && cd _site/ && scp -o "ProxyCommand nc -x localhost:9050 %h %p" -o "StrictHostKeyChecking=no" -o "UserKnownHostsFile=/dev/null" -r * lncm@xklgr4iztecy3fq4.onion:/www-onions
+    - echo "Making deploy to nlboxzx55nq7gqtzmqdkik5d6lbnxzg4tdilrersg6zoq2m3gexj2nad.onion" && cd _site/ && scp -o "ProxyCommand nc -x localhost:9050 %h %p" -o "StrictHostKeyChecking=no" -o "UserKnownHostsFile=/dev/null" -r * deploy@2ma67qeyulhuw4xl.onion:/www-onions
     artifacts:
         paths:
         - public
