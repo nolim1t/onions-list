@@ -196,6 +196,7 @@ Interesting Topics
 | clearnet/name    | onion address
 |------------------|:------------------
 | Psychonaut Wiki  | [vvedndyt433kopnhv6vejxnut54y5752vpxshjaqmj7ftwiu6quiv2ad.onion](http://vvedndyt433kopnhv6vejxnut54y5752vpxshjaqmj7ftwiu6quiv2ad.onion/)
+| Hidden WIki      | [hiddenwiki7wiyzr.onion](http://hiddenwiki7wiyzr.onion/)
 
 
 Other
