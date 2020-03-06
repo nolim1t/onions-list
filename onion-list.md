@@ -20,7 +20,7 @@ Here are my own ``.onion`` sites
 
 | clearnet/name    | onion address
 |------------------|:--------------
-| My Onions mirror | http://nlboxzx55nq7gqtzmqdkik5d6lbnxzg4tdilrersg6zoq2m3gexj2nad.onion/
+| My Onions mirror | http://nlboxqa32a4mja67wgnowska7gsnhyonu6dzry3whd6cba277hkbmcid.onion/
 | My Blog          | http://nlboxajljr5boevw3vyfryenhwqs5eehfh5pnbzjlnounrje5wulbnyd.onion/
 | My Travel Blog   | http://itinzvrq4nfgard62w7dbcxuhal33c7m5zvsrqwxynkpahkertuy5sad.onion/
 | UFLabs Site      | http://uflabsykocgfkhkxo6fq4fzike4cxpq2dhcqsj3kosgprpkc6hva2iid.onion/
