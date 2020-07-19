@@ -157,7 +157,9 @@ Websites related to LNCM
 
 | type    | connection string
 |---------|:------------------
-| mainnet | `032260c3b64b471b7eb0630b4af5d07ca94ff4e759573cbbe1bfb25845c375ed6e@o3s5j4j37nbyzgvbngn3ahpmttvviyensw34klhqzw7in7vfzz646lqd.onion:9735`
+| mainnet | `02e64be984a252d82d71a84f0f2bb8be375207a0862e827dacb290977eca84078f@lncmnlgypuendl5t.onion:9735`
+| mainnet | `0385e3523135f7f03a4a69e9982312aa16c702409638e6c4b1e25c269ef66165c1@f4tcnxsuovxtdolv.onion:9735`
+| mainnet | `02d22dd92ceefe7a23fdd59f62278813aef9276f1a3c2e82a7e0329b0f732e9e06@r2j6jijh3hpffje4vshg2vo3il2fd5ulupmb7u74douezuq2yrj3kvyd.onion:9735`
 | testnet | `02e888295220a5254a5f0486538dc77c0357ee9727db2e9173e6a76646d4aa332e@hxz6xeqvmi5s6rbqqtgu4qkihgdkwbnc7h2vnsn3qkahhffau6afbsyd.onion:9733`
 | regtest | N/A at the moment
 
@@ -165,7 +167,7 @@ Websites related to LNCM
 
 | type    | connection string
 |---------|:------------------
-| mainnet | `02c690cdb81fec5caa9f0b1c925a13ee5412c0232668bd8c5787165532d577f689@lncmnlgypuendl5t.onion:991`
+| mainnet | `03a5fbe0399de22562e6b470ac65f73ec50b45115935f2be1e89a884e5dfa3c6d8@nwehukwznotaxcpagoycd6t6eipyrvnnq245ehenxzl5g7maq5f2qaqd.onion:9911`
 
 Install Tor
 -----------
