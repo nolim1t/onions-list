@@ -158,10 +158,12 @@ Websites related to LNCM
 | type    | connection string
 |---------|:------------------
 | mainnet | `02e64be984a252d82d71a84f0f2bb8be375207a0862e827dacb290977eca84078f@lncmnlgypuendl5t.onion:9735`
-| mainnet | `0385e3523135f7f03a4a69e9982312aa16c702409638e6c4b1e25c269ef66165c1@f4tcnxsuovxtdolv.onion:9735`
+| mainnet | `027cf9967a2d79631c665417b363d7113764bdede6c7bc21897062655448cd3581@nlcnxwngaqkp2w5dquew3x2by6zb4styrdzvts54sfee7pat3ttkchid.onion:9735`
+| mainnet | `034c30c09ea9b5eb95ec84825b106983a130edb48501befeb26f89997901c0b36c@f4tcnxsuovxtdolv.onion:9735`
 | mainnet | `02d22dd92ceefe7a23fdd59f62278813aef9276f1a3c2e82a7e0329b0f732e9e06@r2j6jijh3hpffje4vshg2vo3il2fd5ulupmb7u74douezuq2yrj3kvyd.onion:9735`
 | testnet | `02e888295220a5254a5f0486538dc77c0357ee9727db2e9173e6a76646d4aa332e@hxz6xeqvmi5s6rbqqtgu4qkihgdkwbnc7h2vnsn3qkahhffau6afbsyd.onion:9733`
 | regtest | N/A at the moment
+
 
 #### ⚡️ Altruistic Watchtowers
 
