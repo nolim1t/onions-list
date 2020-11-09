@@ -202,6 +202,7 @@ Interesting Topics
 
 | clearnet/name          | onion address
 |------------------------|:------------------
+| Dreddit                | [dreadytofatroptsdj6io7l3xptbet6onoyno2yv7jicoxknyazubrad.onion](http://dreadytofatroptsdj6io7l3xptbet6onoyno2yv7jicoxknyazubrad.onion/)
 | DarkTea (Git Repos)    | [it7otdanqu7ktntxzm427cba6i53w6wlanlh23v5i3siqmos47pzhvyd.onion](http://it7otdanqu7ktntxzm427cba6i53w6wlanlh23v5i3siqmos47pzhvyd.onion/)
 | Psychonaut Wiki        | [vvedndyt433kopnhv6vejxnut54y5752vpxshjaqmj7ftwiu6quiv2ad.onion](http://vvedndyt433kopnhv6vejxnut54y5752vpxshjaqmj7ftwiu6quiv2ad.onion/)
 | Hidden WIki            | [hiddenwiki7wiyzr.onion](http://hiddenwiki7wiyzr.onion/)
