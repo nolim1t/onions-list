@@ -28,7 +28,7 @@ pages:
     script:
     - bundle exec jekyll build -d public
     - echo "Test tor connection (9050)" && nc -vz localhost 9050
-    - echo "Making deploy to nlboxqa32a4mja67wgnowska7gsnhyonu6dzry3whd6cba277hkbmcid.onion" && cd _site/ && scp -o "ProxyCommand nc -x localhost:9050 %h %p" -o "StrictHostKeyChecking=no" -o "ConnectTimeout=120" -o "UserKnownHostsFile=/dev/null" -r * deploy@rgsqbzt3ni6vqugo5mkmo2sxmdezr2eu6m2shs34g72fye757ll364ad.onion:/www-onions
+    - echo "Making deploy to nlboxqa32a4mja67wgnowska7gsnhyonu6dzry3whd6cba277hkbmcid.onion" && cd _site/ && scp -o "ProxyCommand nc -x localhost:9050 %h %p" -o "StrictHostKeyChecking=no" -o "ConnectTimeout=120" -o "UserKnownHostsFile=/dev/null" -r * deploy@2ma67qeyulhuw4xl.onion:/www-onions
     artifacts:
         paths:
         - public
