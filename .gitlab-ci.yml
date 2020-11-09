@@ -18,7 +18,7 @@ before_script:
     - echo "    ProxyCommand /usr/bin/nc -x localhost:9050 %h %p" >> ~/.ssh/config
     - eval $(ssh-agent)
     - echo "Add deploy key to keychain" && ssh-add ~/.ssh/deploy_key
-    - echo "Wait 10 seconds to bootstrap" && sleep 10
+    - echo "Wait 20 seconds to bootstrap" && sleep 20
     - git submodule sync --recursive
     - git submodule foreach git pull origin master
     - echo "Build to _site" && rake deploy
@@ -28,9 +28,6 @@ pages:
     script:
     - bundle exec jekyll build -d public
     - echo "Test tor connection (9050)" && nc -vz localhost 9050
-    - echo "Test tor connection (9051)" && nc -vz localhost 9051
-    - echo "Test tor connection (9150)" && nc -vz localhost 9150
-    - echo "Test tor connection (9151)" && nc -vz localhost 9151           
     - echo "Making deploy to nlboxqa32a4mja67wgnowska7gsnhyonu6dzry3whd6cba277hkbmcid.onion" && cd _site/ && scp -o "ProxyCommand nc -x localhost:9050 %h %p" -o "StrictHostKeyChecking=no" -o "UserKnownHostsFile=/dev/null" -r * deploy@rgsqbzt3ni6vqugo5mkmo2sxmdezr2eu6m2shs34g72fye757ll364ad.onion:/www-onions
     artifacts:
         paths:
