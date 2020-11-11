@@ -157,11 +157,9 @@ Websites related to LNCM
 
 | type    | connection string
 |---------|:------------------
-| mainnet | [`02e64be984a252d82d71a84f0f2bb8be375207a0862e827dacb290977eca84078f@lncmnlgypuendl5t.onion:9735`](https://1ml.com/node/02e64be984a252d82d71a84f0f2bb8be375207a0862e827dacb290977eca84078f) (sunsetting by June 2021)
 | mainnet | [`02e64be984a252d82d71a84f0f2bb8be375207a0862e827dacb290977eca84078f@2qtnbs2vwsmhdalmyd5ftmxp6w6clepaawyys6ndmneb6g2qxn7bkpad.onion:9735`](https://1ml.com/node/02e64be984a252d82d71a84f0f2bb8be375207a0862e827dacb290977eca84078f)
 | mainnet | [`027cf9967a2d79631c665417b363d7113764bdede6c7bc21897062655448cd3581@nlcnxwngaqkp2w5dquew3x2by6zb4styrdzvts54sfee7pat3ttkchid.onion:9735`](https://1ml.com/node/027cf9967a2d79631c665417b363d7113764bdede6c7bc21897062655448cd3581)
 | mainnet | [`03f1b1b79212e5918177f357e8db1eb60f163d7140bcd818444e2dae75884dd3e0@2u4i4ofm4owow576qeii3s5qz3r7z272obaeyzouehkdyr4oy54wkpad.onion:9736`](https://1ml.com/node/03f1b1b79212e5918177f357e8db1eb60f163d7140bcd818444e2dae75884dd3e0)
-| mainnet | [`034c30c09ea9b5eb95ec84825b106983a130edb48501befeb26f89997901c0b36c@f4tcnxsuovxtdolv.onion:9735`](https://1ml.com/node/034c30c09ea9b5eb95ec84825b106983a130edb48501befeb26f89997901c0b36c)
 | mainnet | [`02d22dd92ceefe7a23fdd59f62278813aef9276f1a3c2e82a7e0329b0f732e9e06@r2j6jijh3hpffje4vshg2vo3il2fd5ulupmb7u74douezuq2yrj3kvyd.onion:9735`](https://1ml.com/node/02d22dd92ceefe7a23fdd59f62278813aef9276f1a3c2e82a7e0329b0f732e9e06)
 | testnet | [`03be84a5493470812e4d486513d082c3063841531f3938a8d3646327a332a2c477@roq7ltvhifbccl54xivrihs32ibw2pdhihac6v2orx3bosapl447k3qd.onion:9735`](https://1ml.com/testnet/node/03be84a5493470812e4d486513d082c3063841531f3938a8d3646327a332a2c477)
 | testnet | [`02e888295220a5254a5f0486538dc77c0357ee9727db2e9173e6a76646d4aa332e@hxz6xeqvmi5s6rbqqtgu4qkihgdkwbnc7h2vnsn3qkahhffau6afbsyd.onion:9733`](https://1ml.com/testnet/node/02e888295220a5254a5f0486538dc77c0357ee9727db2e9173e6a76646d4aa332e) (Seems to be down)
