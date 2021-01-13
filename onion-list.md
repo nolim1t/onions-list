@@ -42,7 +42,7 @@ Table below contains a list of `.onion` addresses for some more popular clearnet
 | ProtonMail.com   | https://protonirockerxow.onion
 | ThePirateBay.org | http://uj3wazyk5u4hnvtk.onion
 | WasabiWallet.io  | http://wasabiukrxmkdgve5kynjztuovbg43uxcbcxn6y2okcrsg7gb6jdmbad.onion
-
+| Brave Browser    | https://brave5t5rjjg3s6k.onion/
 
 Bitcoin Git Repos
 -----------------
