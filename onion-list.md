@@ -194,6 +194,14 @@ sudo apt update && sudo apt install tor && sudo service tor@default restart && t
 > **Note:** `torrc` is located in `/etc/tor/torrc` by default.
 
 
+Internet/Services
+--------------
+
+| clearnet/name          | onion address
+|------------------------|:------------------
+| bitvps                 | [bitvpsj2ojxo7faned27wmpqiss3pny7m7bptwtnegl7fswjrxwtmxid.onion](http://bitvpsj2ojxo7faned27wmpqiss3pny7m7bptwtnegl7fswjrxwtmxid.onion/)
+
+
 Interesting Topics
 --------------
 
