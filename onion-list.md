@@ -149,7 +149,7 @@ Websites related to LNCM
 
 | type    | addresses
 |---------|:----------
-| mainnet | `keh2i6kkjs7tqahpv7jgj6ifb3r7sdnge4ickqghnyedhp3jjwu7mlad.onion:8333` (nolim1t)<br />`34qk27n4it7pdkqmld5sbmxwolmietclcc6d35mz6cmskxm7mo4ykzid.onion:8333` (nolim1t)
+| mainnet | `keh2i6kkjs7tqahpv7jgj6ifb3r7sdnge4ickqghnyedhp3jjwu7mlad.onion:8333` (nolim1t)<br />`34qk27n4it7pdkqmld5sbmxwolmietclcc6d35mz6cmskxm7mo4ykzid.onion:8333` (nolim1t)<br /> `c6la3ojmnerkf57e.onion:8333` (nolim1t)
 | testnet | `lncmdmfl674xg3oa.onion:18333`<br> `lncmdmrpdhoeraa5.onion:18333`
 | regtest | N/A at the moment
 
