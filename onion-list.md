@@ -33,6 +33,7 @@ Table below contains a list of `.onion` addresses for some more popular clearnet
 
 | clearnet/name    | onion address
 |------------------|:--------------
+| Internet Archive | http://archivebyd3rzt3ehjpm4c3bjkyxv3hjleiytnvxcn7x32psn2kxcuid.onion/
 | BBC News         | https://www.bbcnewsv2vjtpsuy.onion
 | Blockstream.info | http://explorerzydxu5ecjrkwceayqybizmpjjznk5izmitf2modhcusuqlid.onion
 | DuckDuckGo.com   | https://3g2upl4pq6kufc4m.onion
