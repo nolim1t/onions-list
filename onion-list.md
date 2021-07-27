@@ -208,11 +208,12 @@ Interesting Topics
 | clearnet/name          | onion address
 |------------------------|:------------------
 | dark.fail              | [darkfailllnkf4vf.onion](http://darkfailllnkf4vf.onion/)
+| dark.fail        | [darkfailllnkf4vf.onion](http://darkfailenbsdla5mal2mxn2uz66od5vtzd5qozslagrfzachha3f3id.onion)
 | Dreddit                | [dreadytofatroptsdj6io7l3xptbet6onoyno2yv7jicoxknyazubrad.onion](http://dreadytofatroptsdj6io7l3xptbet6onoyno2yv7jicoxknyazubrad.onion/)
 | DarkTea (Git Repos)    | [it7otdanqu7ktntxzm427cba6i53w6wlanlh23v5i3siqmos47pzhvyd.onion](http://it7otdanqu7ktntxzm427cba6i53w6wlanlh23v5i3siqmos47pzhvyd.onion/)
 | Psychonaut Wiki        | [vvedndyt433kopnhv6vejxnut54y5752vpxshjaqmj7ftwiu6quiv2ad.onion](http://vvedndyt433kopnhv6vejxnut54y5752vpxshjaqmj7ftwiu6quiv2ad.onion/)
 | Hidden WIki            | [hiddenwiki7wiyzr.onion](http://hiddenwiki7wiyzr.onion/)
-
++| Hidden Wiki      | [hiddenwiki7wiyzr.onion/](http://http://6nhmgdpnyoljh5uzr5kwlatx2u3diou4ldeommfxjz3wkhalzgjqxzqd.onion/)
 
 Other
 -------
