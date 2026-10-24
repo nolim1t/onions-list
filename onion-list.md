@@ -201,7 +201,7 @@ Internet/Services
 
 | clearnet/name          | onion address
 |------------------------|:------------------
-| bitvps                 | [bitvpsj2ojxo7faned27wmpqiss3pny7m7bptwtnegl7fswjrxwtmxid.onion](http://bitvpsj2ojxo7faned27wmpqiss3pny7m7bptwtnegl7fswjrxwtmxid.onion/)
+| [bitvps](https://bitvps.com/) | [bitvps4pngisidy7golxfyti2ivyimg5o6t7po3ggj7vo7lmbxcmjuyd.onion](http://bitvps4pngisidy7golxfyti2ivyimg5o6t7po3ggj7vo7lmbxcmjuyd.onion/)
 
 
 Interesting Topics
